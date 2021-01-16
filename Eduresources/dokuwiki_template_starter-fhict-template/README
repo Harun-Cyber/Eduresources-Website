@@ -1,11 +1,11 @@
 See template.info.txt for main info
 See COPYING for license info
 
-Handleiding FHICT Template
-DokuWiki Starter Template
+<h1>Handleiding FHICT Template<h1>
+<h2>DokuWiki Starter Template<h2>
 De FHICT Eduresources Template is gebaseerd op de Starter Template, gemaakt door Anika Henke (de devoloper van DokuWiki). Starter Template is een vereenvoudigde versie van de standaard DokuWiki Template, en is dan ook bedoeld als startpunt voor eigen gemaakte templates. 
 Start
-Start vanuit Starter Template
+<h2>Start vanuit Starter Template<h2>
 De eenvoudigste manier om een ​​nieuwe template te maken, is door een reeds bestaande template als uitgangspunt te nemen. Het is een goed idee om de starter template te gebruiken omdat deze simpel is en de DokuWiki-templatestandaarden volgt.
 
 Installeer de starter template 
@@ -13,10 +13,10 @@ Selecteer de nieuwe template in de configuratiemanager
 Verander vervolgens uw template zodat deze naar wens is; om te begrijpen hoe DokuWiki-templates worden gebouwd, kijk naar de template bestanden en hoe 
 DokuWiki omgaat met CSS.
 
-Start vanuit FHICT Eduresources Template
+<h2>Start vanuit FHICT Eduresources Template<h2>
 Na de Template Eduresources gedownload en geopend te hebben, zijn er 2 belangrijke files: main.php en css/design.css. Als er nieuwe html elementen toegevoegd moeten worden (bijvoorbeeld een <link></link> naar een ander stylesheet), moeten deze toegevoegd worden aan ‘main.php’. Als de styling van elementen aangepast dient te worden, dan kunnen deze veranderd worden in ‘design.css’. De beste manier om te weten welke classes er in de stylesheet veranderd moeten worden om een bepaald element te stylen, is door in Chrome het Developer Tools menu (ofwel F12 menu) te openen op de Edutest of Eduresources site, en hierbij met inspect element (‘Ctrl + Shift + C’) het element te selecteren dat veranderd moet worden. Hierdoor wordt het zichtbaar welke classes het geselecteerde element heeft. Deze classes zijn dan weer op de traditionele manier te veranderen in ‘design.css’.
 
-Directory Layout
+<h2>Directory Layout<h2>
 
 <filename>.css – template's stylesheets 
 script.js – optioneel, als je template JavaScript nodig heeft.
@@ -35,11 +35,11 @@ favicon.ico – favicon (kan overschreven worden door een andere te uploaden naa
 template.info.txt – een text file met template information!
 
 
-Template Upload
+<h2>Template Upload<h2>
 Nadat de template naar wens gestyled en geëdit is. Dient deze gezipped te worden naar een .zip bestand. Deze kan geupload worden door een admin account van Eduresources, bij ‘Admin > Extension Manager > Manual Install > Upload Extension’. Vergeet niet de ‘overwrite existing files’ checkbox aan te vinken voordat u op de ‘install’ knop drukt. Indien de naam van de zojuist geuploade template niet hetzelfde is als de template die momenteel gebruikt wordt, komt de nieuwe template apart bij ‘installed templates’ te staan. De template dient dan nog eerst aangezet te worden bij ‘Admin > Configuration Settings > Template‘ aangezet te worden.
 
 
-Template Style Settings
+<h2>Template Style Settings<h2>
 De template style settings zijn te vinden bij ‘Admin > Template Style Settings’. Hiermee kunnen een deel van de template stijlinstellingen aangepast worden, zonder enige code aan te hoeven passen. Alle wijzigingen worden opgeslagen in een lokaal configuratiebestand en worden dan ook niet gereset na het uploaden van een geüpdatete template.
 De stijlinstellingen die aangepast kunnen worden zijn als volgt:
 Main text color	
