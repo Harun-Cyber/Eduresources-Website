@@ -1,0 +1,7 @@
+base     starter
+author   Harun Erdogan & Finn Habraken
+email    anika@selfthinker.org
+date     2021-01-16
+name     FHICT Template
+desc     FHICT Template is based on Starter Template by Anika Henke
+url      https://www.dokuwiki.org/template:starter
